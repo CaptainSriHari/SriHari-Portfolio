@@ -49,6 +49,7 @@ class SkillsSection extends StatelessWidget {
           spacing: 12,
           runSpacing: 12,
           children: skills.map((skill) {
+            print('object');
             return Container(
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
               decoration: BoxDecoration(
