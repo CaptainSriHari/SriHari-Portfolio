@@ -10,6 +10,7 @@ class ExperienceSection extends StatelessWidget {
     final theme = Theme.of(context);
 
     return Column(
+      
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         // ---------- Section title ----------
@@ -33,7 +34,7 @@ class ExperienceSection extends StatelessWidget {
               ? const FlippableExperienceCard(
                   company: 'Sunbright Multimedia Services LLP (Eenadu Group)',
                   role: 'Jr. Software Developer (Flutter)',
-                  duration: 'May 2023 – Present',
+                  duration: 'JULY 2024 – Present',
                   location: 'Hyderabad',
                   projects: [
                     'Eenadu EPromotions  –  Survey App',

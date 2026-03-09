@@ -8,7 +8,7 @@ class HeaderSection extends StatelessWidget {
 
   Future<void> _openResume() async {
     // Option 1: Local PDF (Flutter Web Desktop)
-    final Uri url = Uri.parse("assets/Srihari_Flutter_06-02-2026.pdf");
+    final Uri url = Uri.parse("assets/SriHari_Flutter_13-02-2026_Resume.pdf");
 
     // Option 2: Google Drive
     // final Uri gdv = Uri.parse(
@@ -100,7 +100,7 @@ class HeaderSection extends StatelessWidget {
               // backdropFilter: const BlurFilter(10),
             ),
             child: Text(
-              'To find a challenging role that utilizes my 1.6 years expertise of Flutter development and allows me to grow professionally in the field of mobile application development.',
+              'To find a challenging role that utilizes my 1.7 years expertise of Flutter development and allows me to grow professionally in the field of mobile application development.',
               style: GoogleFonts.poppins(fontSize: 15),
               textAlign: TextAlign.center,
             ),
